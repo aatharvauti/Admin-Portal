@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Admin Portal</title>
+    <!-- Include Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+        .container {
+            flex: 1;
+        }
+        header {
+            background-color: #f3f3f3;
+            color: #fff;
+            padding: 50px 0;
+        }
+        header img {
+            max-width: 400px;
+            height: auto;
+        }
+        nav {
+            background-color: #222;
+        }
+        nav a.nav-link {
+            color: #fff !important;
+            margin: 0 10px;
+        }
+        section {
+            padding: 30px 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer a {
+            color: #fff;
+        }
+        /* Custom CSS for login form */
+        .card {
+            margin-top: 50px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container text-center">
+            <img height="100px" src="logo.png" alt="Logo">
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.sakec.ac.in/ecs">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.sakec.ac.in/support-staff/">Faculty</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.sakec.ac.in/life-sakec/">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.sakec.ac.in/research">Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.sakec.ac.in/student-council/">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.sakec.ac.in/admission/">Announcements</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+        <!-- Login Page -->
+        <section id="login">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h2>Login</h2>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" id="username" placeholder="Enter your username">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Shah &amp; Anchor Kutchhi Engineering College</p>
+            <p>Contact: 022-25580854 | info@sakec.ac.in</p>
+        </div>
+    </footer>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Add your JavaScript code here
+    </script>
+</body>
+</html>
