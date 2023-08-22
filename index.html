@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             display: flex;
             flex-direction: column;
-            min-height: 100vh; 
+            min-height: 100vh;
         }
         .container {
             flex: 1;
@@ -41,6 +41,50 @@
         }
         footer a {
             color: #fff;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container {
+            flex: 1;
+        }
+        header {
+            background-color: #f3f3f3;
+            color: #fff;
+            padding: 50px 0;
+        }
+        header img {
+            max-width: 400px;
+            height: auto;
+        }
+        nav {
+            background-color: #222;
+        }
+        nav a.nav-link {
+            color: #fff !important;
+            margin: 0 10px;
+        }
+        section {
+            padding: 30px 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer a {
+            color: #fff;
+        }
+        /* Custom CSS for login form */
+        .card {
+            margin-top: 50px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
@@ -77,11 +121,35 @@
             <br>
             <h4>
                 Awarded ‘A’ (3.16 CGPA) Grade by National Assessment & Accreditation Council (NAAC)
-                
+
                 UG Programs in Computers & IT have been awarded accreditation by National Board of Accreditation (NBA)
             </h4>
             <br>
             <p>This is the admin page for Shah and Anchor Kutchhi Engineering College. <b> Faculty and core member login only. </b> <br> If you are looking for the public website, kindly visit <a href="https://sakec.ac.in">https://sakec.ac.in</a></p>
+        </section>
+    </div>
+
+    <div class="container">
+        <!-- Login Page -->
+        <section id="login">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h2>Login</h2>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" id="username" placeholder="Enter your username">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </div>
 
